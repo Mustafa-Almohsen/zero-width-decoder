@@ -1,4 +1,4 @@
-# zero-width-decoder
+# zw-universal-decoder
 A universal extractor for hidden data encoded using zero-width and invisible Unicode characters. A universal extractor for hidden data encoded using **zero-width and invisible Unicode characters**.
 
 This kind of technique is sometimes used in CTFs and challenges, like the [TryHackMe "Impossible Challenge"] (https://tryhackme.com/room/theimpossiblechallenge), where flags or secrets are hidden using Unicode tricks.   
