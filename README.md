@@ -14,11 +14,11 @@ Zero-width characters (like `U+200C`, `U+200D`, `U+FEFF`, `U+202C`) look invisib
 
 Example:
 
-Count characters (visible vs actual bytes)
-wc -m thm.txt
+Count characters (visible vs actual bytes)                                                                                                                                                                                 
+wc -m thm.txt                                                                                                                                                                                                              
 164 thm.txt
 
-wc -c thm.txt
+wc -c thm.txt                                                                                                                                                                                                              
 484 thm.txt
 
 
@@ -27,7 +27,7 @@ Here the file looks small, but the byte count is much larger → hidden data is 
 
 Inspect with hexdump:
 
-hexdump -C thm.txt | head
+hexdump -C thm.txt | head                                                                                                                                                                                                  
 00000000  e2 80 8c e2 80 8c e2 80  8c e2 80 8c e2 80 8d ef  |................|
 00000010  bb bf e2 80 8c e2 80 8c  48 6d 6d e2 80 8c e2 80  |........Hmm.....|
 
